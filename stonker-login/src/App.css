@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+.content .Wrapper .form-main .heading h3 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#password {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-main {
+  width: 450px;
+  margin: 0px auto;
+  padding: 24px;
+  border: 1px solid;
+  margin-top: 0;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .form-main .btn {
+  width: 100%;
+  height: 3rem;
+  background-color: #5ca854;
+  border-radius: 9999px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .Wrapper .form-main .FirstName label {
+  margin-bottom: 0.5rem;
+}
+
+.content .Wrapper .form-main .lastname label {
+  margin-bottom: 0.5rem;
+}
+
+.content .Wrapper .form-main .Username label {
+  margin-bottom: 0.5rem;
+}
+
+.content .Wrapper .form-main .email label {
+  margin-bottom: 0.5rem;
+}
+
+.content .Wrapper .form-main .password label {
+  margin-bottom: 0.5rem;
+  margin-top: 7px;
+}
+
+input[type="FirstName"] {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-width: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="lastname"] {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-width: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="Username"] {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-width: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="email"] {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-width: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="password"] {
+  background: #ffffff;
+  padding: 8px 12px;
+  border-width: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="FirstName"]:focus {
+  outline: none;
+}
+
+input[type="lastname"]:focus {
+  outline: none;
+}
+
+input[type="Username"]:focus {
+  outline: none;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="password"]:focus {
+  outline: none;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0px;
+}
+
+.btn:hover {
+  background-color: transparent !important;
+  color: #5ca854 !important;
+  border: 1px solid !important;
+  border-color: #5ca854 !important;
+}
+
+.forget-password {
+  color: #5ca854;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .Wrapper .form-main .sign-up p {
+  margin-top: 1rem;
+  padding-left: 5px;
+  color: #4b5563;
+}
+.content .Wrapper .form-main .sign-up .text-color p {
+  color: #5ca854;
+}
+
+.content .Wrapper .form-main .sign-up .text-color a {
+  text-decoration: none;
+}
+
+.btn::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+  position: absolute;
+  bottom: -20px;
+}
+
+.btn {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.content.signupT{
+  margin-top: 7rem;
+  margin-bottom: 8rem;
+}
+
+
+.error-color{
+  color: red;
+}
